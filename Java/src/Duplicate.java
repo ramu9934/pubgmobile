@@ -10,6 +10,7 @@ public class Duplicate {
 		for (Character character : c) {
 			if(set.add(character)==false){
 				System.out.print(character);
+				System.out.println("hiii");
 			}
 		}
 
